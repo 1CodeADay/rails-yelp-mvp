@@ -1,0 +1,10 @@
+<h1>Restaurants#new</h1>
+<p>Find me in app/views/restaurants/new.html.erb</p>
+
+<!-- app/views/restaurants/_form.html.erb -->
+<%= simple_form_for(restaurant) do |f| %>
+  <%= f.input :name %>
+  <%= f.input :address %>
+  <%= f.input :rating %>
+  <%= f.submit %>
+<% end %>
